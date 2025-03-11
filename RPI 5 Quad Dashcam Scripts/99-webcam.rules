@@ -1,0 +1,5 @@
+# Logitech C930e - H.264 stream
+SUBSYSTEM=="video4linux", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="0843", ATTR{name}=="HD Pro Webcam C930e: HD Pro Web", ATTR{index}=="2", SYMLINK+="webcam_c930e"
+
+# J5 WebCam JV - H.264 stream
+SUBSYSTEM=="video4linux", ATTRS{idVendor}=="0711", ATTRS{idProduct}=="3108", ATTR{name}=="j5 WebCam JVCU100: j5 WebCam JV", ATTR{index}=="0", SYMLINK+="webcam_j5"
